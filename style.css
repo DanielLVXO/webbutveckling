@@ -1,0 +1,34 @@
+.btn {
+  padding: 5px 25px;
+  cursor: pointer;
+  background-color: white;
+  color: yellowgreen;
+  border: 2px solid yellowgreen;
+  box-shadow: 2px 2px white, 4px 4px yellowgreen;
+  transition-duration: 250ms;
+}
+
+.btn:hover {
+  box-shadow: 3px 3px white, 6px 6px yellowgreen;
+  transform: translate(-2px, -2px);
+}
+/* */
+body {
+  padding-left: 100px;
+}
+
+.box {
+  margin-top: 100px;
+}
+
+.box {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  transition-duration: 500ms; /* halv sekund */
+}
+
+.box:hover {
+  transform: scale(1.5, 1); /* x-led, y-led */
+  background-color: rgba(255, 166, 0, 0.466);
+}
